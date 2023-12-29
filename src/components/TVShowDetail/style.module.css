@@ -1,0 +1,37 @@
+.tvShowDetailsPopular {
+  text-align: center;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 45px;
+}
+
+.rating_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rating {
+  margin-top: 8px;
+  margin-left: 55px;
+  font-size: 25px;
+}
+
+.star_rating {
+  transform: scale(1.5);
+}
+
+.overview:hover {
+  overflow-y: auto;
+}
+
+.overview {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 25px;
+  height: 120px;
+  overflow-y: hidden;
+  margin-top: 10px;
+}
